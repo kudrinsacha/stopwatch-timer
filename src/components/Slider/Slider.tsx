@@ -27,7 +27,7 @@ export const Slider = (timeState: { time: number; setTime: Function }) => {
   ];
 
   const sliderValueChange = useCallback(
-    (e: Event, newValue: number | number[]) => {
+    (_: Event, newValue: number | number[]) => {
       if (typeof newValue === 'number') {
         setTime(newValue);
       }
