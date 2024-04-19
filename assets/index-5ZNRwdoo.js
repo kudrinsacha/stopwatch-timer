@@ -310,7 +310,7 @@ Error generating stack: `+l.message+`
 `,QP=we(dP)``,YP=we.div`
   position: absolute;
   left: 40px;
-`,XP=e=>{const{time:t,totalTime:n,isPlay:r,children:o}=e,[l,i]=S.useState(100);return S.useEffect(()=>{if(r&&n!==0){const s=Math.floor(t/n*100);i(s)}t===0&&i(100)},[r,t,n]),I.jsxs(GP,{children:[I.jsx(QP,{variant:"determinate",value:l,size:220}),I.jsx(YP,{children:o})]})},qP="/assets/bruh-GQwL2Lw5.mp3",ZP=we.div`
+`,XP=e=>{const{time:t,totalTime:n,isPlay:r,children:o}=e,[l,i]=S.useState(100);return S.useEffect(()=>{if(r&&n!==0){const s=Math.floor(t/n*100);i(s)}t===0&&i(100)},[r,t,n]),I.jsxs(GP,{children:[I.jsx(QP,{variant:"determinate",value:l,size:220}),I.jsx(YP,{children:o})]})},qP="/stopwatch-timer/assets/bruh-GQwL2Lw5.mp3",ZP=we.div`
   display: flex;
   flex-direction: column;
   align-items: center;
