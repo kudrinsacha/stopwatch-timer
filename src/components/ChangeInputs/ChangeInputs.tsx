@@ -14,7 +14,7 @@ export const ChangeInputs = (timeState: {
 
   const minutesValueChange = useCallback(
     (
-      e:
+      _:
         | React.FocusEvent<HTMLInputElement>
         | React.PointerEvent
         | React.KeyboardEvent,
@@ -29,7 +29,7 @@ export const ChangeInputs = (timeState: {
 
   const secondsValueChange = useCallback(
     (
-      e:
+      _:
         | React.FocusEvent<HTMLInputElement>
         | React.PointerEvent
         | React.KeyboardEvent,
