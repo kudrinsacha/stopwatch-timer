@@ -6,7 +6,7 @@
   "homepage": "https://kudrinsacha.github.io/stopwatch-timer",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
@@ -46,7 +46,7 @@
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-react-refresh": "^0.4.6",
-    "github-pages": "^3.0.2",
+    "gh-pages": "^6.1.1",
     "prettier": "^3.2.5",
     "typescript": "^5.2.2"
   }
